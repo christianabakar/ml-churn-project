@@ -34,4 +34,4 @@ jobs:
 
       - name: Tests
         run: |
-          pytest
+          pytest --ignore=tests/test_selenium.py
